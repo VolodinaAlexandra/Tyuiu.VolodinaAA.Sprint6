@@ -149,7 +149,7 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task0.V24
             this.textBoxTask_VAA.Name = "textBoxTask_VAA";
             this.textBoxTask_VAA.Size = new System.Drawing.Size(383, 163);
             this.textBoxTask_VAA.TabIndex = 7;
-            this.textBoxTask_VAA.Text = "Вычислить выражение по формуле";
+            this.textBoxTask_VAA.Text = "Вычислить выражение по формуле =>";
             // 
             // FormMain
             // 

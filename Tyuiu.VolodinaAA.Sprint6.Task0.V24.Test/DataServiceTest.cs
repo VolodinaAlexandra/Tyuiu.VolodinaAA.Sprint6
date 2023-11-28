@@ -10,7 +10,7 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task0.V24.Test
         [TestMethod]
         public void CheckCalculateValid()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService();  
             double y = ds.Calculate(3);
             double wait = 1024;
             Assert.AreEqual(wait, y);
