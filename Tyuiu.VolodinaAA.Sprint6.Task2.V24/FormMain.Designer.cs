@@ -29,9 +29,9 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task2.V24
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxTask_VAA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_VAA = new System.Windows.Forms.TextBox();
             this.groupBoxInputData_VAA = new System.Windows.Forms.GroupBox();
@@ -170,20 +170,20 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task2.V24
             // 
             // chartFunction_VAA
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartFunction_VAA.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.chartFunction_VAA.Legends.Add(legend2);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunction_VAA.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.chartFunction_VAA.Legends.Add(legend3);
             this.chartFunction_VAA.Location = new System.Drawing.Point(662, 21);
             this.chartFunction_VAA.Name = "chartFunction_VAA";
             this.chartFunction_VAA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chartFunction_VAA.Series.Add(series2);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsVisibleInLegend = false;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunction_VAA.Series.Add(series3);
             this.chartFunction_VAA.Size = new System.Drawing.Size(418, 393);
             this.chartFunction_VAA.TabIndex = 6;
             // 
@@ -207,12 +207,14 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task2.V24
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(1092, 426);
+            this.ControlBox = false;
             this.Controls.Add(this.chartFunction_VAA);
             this.Controls.Add(this.groupBoxResult_VAA);
             this.Controls.Add(this.buttonDone_VAA);
             this.Controls.Add(this.buttonInfo_VAA);
             this.Controls.Add(this.groupBoxInputData_VAA);
             this.Controls.Add(this.groupBoxTask_VAA);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MinimizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
