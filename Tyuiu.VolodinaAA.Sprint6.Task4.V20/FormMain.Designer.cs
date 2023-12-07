@@ -30,10 +30,10 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task4.V20
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxTask_VAA = new System.Windows.Forms.GroupBox();
             this.textBoxTask_VAA = new System.Windows.Forms.TextBox();
             this.groupBoxInputData_VAA = new System.Windows.Forms.GroupBox();
@@ -184,28 +184,28 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task4.V20
             // 
             // chartFunction_VAA
             // 
-            chartArea1.Name = "График функции";
-            this.chartFunction_VAA.ChartAreas.Add(chartArea1);
+            chartArea2.Name = "График функции";
+            this.chartFunction_VAA.ChartAreas.Add(chartArea2);
             this.chartFunction_VAA.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chartFunction_VAA.Legends.Add(legend1);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.chartFunction_VAA.Legends.Add(legend2);
             this.chartFunction_VAA.Location = new System.Drawing.Point(296, 100);
             this.chartFunction_VAA.Name = "chartFunction_VAA";
             this.chartFunction_VAA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series1.ChartArea = "График функции";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "График функции";
-            this.chartFunction_VAA.Series.Add(series1);
+            series2.ChartArea = "График функции";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "График функции";
+            this.chartFunction_VAA.Series.Add(series2);
             this.chartFunction_VAA.Size = new System.Drawing.Size(962, 543);
             this.chartFunction_VAA.TabIndex = 6;
             this.chartFunction_VAA.Text = "График функции";
-            title1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            title1.Name = "TitleFunction";
-            title1.Text = "График функции";
-            this.chartFunction_VAA.Titles.Add(title1);
+            title2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            title2.Name = "TitleFunction";
+            title2.Text = "График функции";
+            this.chartFunction_VAA.Titles.Add(title2);
             // 
             // panelTop_VAA
             // 
@@ -250,7 +250,7 @@ namespace Tyuiu.VolodinaAA.Sprint6.Task4.V20
             this.MinimumSize = new System.Drawing.Size(1117, 592);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6|Таск 4|Вариант 20|Володина А.А.";
             this.groupBoxTask_VAA.ResumeLayout(false);
             this.groupBoxTask_VAA.PerformLayout();
             this.groupBoxInputData_VAA.ResumeLayout(false);
